@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Perpustakaan 1
+                    Perpustakaan
                 </div>
 
                 <div class="links">
