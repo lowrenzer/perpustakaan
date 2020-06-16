@@ -11,7 +11,7 @@ class Pegawai extends Model
         'id',
         'id_pegawai',
         'nama',
-        'jensi_kelamin',
+        'jenis_kelamin',
         'no_hp',
         'alamat'
     ];

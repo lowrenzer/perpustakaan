@@ -19,7 +19,7 @@
             <input type="Text" name="nama" class="form-control" id="Nama" placeholder="Nama Pegawai">
         </div>
         <div class="form-group">
-            <label for="jenis_kelamin">Jenis Kelamin</label>
+            <label for="jenis">Jenis Kelamin</label>
             <select name="jenis_kelamin" id="" class="form-control">
                 <option value="">--Pilih--</option>
                 <option value="Pria">Pria</option>
