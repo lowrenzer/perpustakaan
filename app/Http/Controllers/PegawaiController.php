@@ -61,7 +61,8 @@ class PegawaiController extends Controller
      */
     public function edit($id)
     {
-        //
+        $data = Pegawai::findOrfail($id);
+        return view('pegawai.edit', compact('data'));
     }
 
     /**
@@ -73,7 +74,8 @@ class PegawaiController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $data = Pegawai::findOrfail($id);
+        $data->create($request->all());
     }
 
     /**
@@ -84,6 +86,8 @@ class PegawaiController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $data = Pegawai::findOrfail($id);
+        $data->delete();
+        return redirect()->route('pegawai.index');
     }
 }
