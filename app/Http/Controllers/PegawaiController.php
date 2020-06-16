@@ -39,6 +39,7 @@ class PegawaiController extends Controller
         //var_dump($_POST);
         $data = new Pegawai();
         $data->create($request->all());
+        return redirect()->route('pegawai.index');
     }
 
     /**
